@@ -13,3 +13,11 @@ const App = () => {
   const [selectedBot, setSelectedBot] = useState(null); // State to keep track of the currently selected bot for BotSpecs view
   const [filterBy, setFilterBy] = useState(''); // State to store the selected filter class (e.g., tank, support, etc.)
   const [sortBy, setSortBy] = useState(''); // State to store the selected sort key (health, damage, armor)
+
+   // Fetch bot data from the API using useEffect hook
+   useEffect(() => {
+    fetch('http://localhost:3000/bots')
+      .then((response) => response.json())
+      .then((data) => setBots(data)) // Store the fetched bot data in the 'bots' state
+      .catch((error) => console.error('Error fetching bots:', error));
+  }, []);
