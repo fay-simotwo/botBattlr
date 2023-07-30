@@ -21,3 +21,9 @@ const App = () => {
       .then((data) => setBots(data)) // Store the fetched bot data in the 'bots' state
       .catch((error) => console.error('Error fetching bots:', error));
   }, []);
+
+   // Function to enlist a bot to your army
+   const enlistBot = (bot) => {
+    setEnlistedBots([...enlistedBots, bot]); // Add the selected bot to the 'enlistedBots' state array
+    setBots(bots.filter((b) => b.id !== bot.id)); // Remove the enlisted bot from the 'bots' state array
+  };
