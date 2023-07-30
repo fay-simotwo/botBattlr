@@ -30,3 +30,11 @@ ul {
   list-style: none; /* Remove default bullet points for lists */
   padding: 0; /* Remove padding from lists */
 }
+
+/* BotCollection styles */
+.bot-collection {
+  display: grid; /* Display the bot cards in a grid layout */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Set grid columns with minimum width of 300px and maximum available width */
+  grid-gap: 20px; /* Add spacing (gap) between grid items */
+  justify-content: center; /* Center the grid items horizontally */
+}
