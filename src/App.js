@@ -81,3 +81,21 @@ const App = () => {
       />
     );
   }
+
+   // If no bot is selected, render the main app view
+   return (
+    <div className="container">
+      <h1>Bot Army</h1>
+      <BotSort
+        filterBy={filterBy}
+        sortBy={sortBy}
+        onFilterChange={handleFilterChange} // Pass the function to handle filter changes
+        onSortChange={handleSortChange} // Pass the function to handle sort changes
+      />
+      <YourBotArmy army={enlistedBots} releaseBot={releaseBot} dischargeForever={dischargeForever} />
+      <BotCollection bots={filteredAndSortedBots} showBotSpecs={handleBotSelection} enlistBot={enlistBot} />
+    </div>
+  );
+};
+
+export default App;
