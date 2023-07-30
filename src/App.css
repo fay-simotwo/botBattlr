@@ -148,3 +148,24 @@ ul {
 .your-bot-army li button:hover {
   background-color: #c82333; /* Change the background color on hover */
 }
+
+/* SortBar styles */
+.bot-filter-sort {
+  display: flex; /* Display sort bar elements in a row */
+  align-items: center; /* Center elements vertically */
+  justify-content: center; /* Center elements horizontally */
+  margin-bottom: 20px; /* Add margin at the bottom of the sort bar */
+}
+
+/* Styling for labels inside the SortBar */
+.bot-filter-sort label {
+  margin-right: 10px; /* Add margin on the right side of labels */
+}
+
+/* Styling for select dropdowns inside the SortBar */
+.bot-filter-sort select {
+  padding: 6px 12px; /* Add padding inside select dropdowns */
+  border: 1px solid #ccc; /* Set a border around select dropdowns */
+  border-radius: 4px; /* Round the corners of select dropdowns */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+}
