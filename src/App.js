@@ -27,3 +27,15 @@ const App = () => {
     setEnlistedBots([...enlistedBots, bot]); // Add the selected bot to the 'enlistedBots' state array
     setBots(bots.filter((b) => b.id !== bot.id)); // Remove the enlisted bot from the 'bots' state array
   };
+
+    // Function to discharge a bot forever
+    const dischargeForever = (bot) => {
+      // Delete the bot on the backend here if needed
+      // For simplicity, we are just filtering it out from the 'enlistedBots' array
+      setEnlistedBots(enlistedBots.filter((b) => b.id !== bot.id));
+    };
+
+      // Function to handle bot selection and show the BotSpecs component
+  const handleBotSelection = (bot) => {
+    setSelectedBot(bot); // Set the 'selectedBot' state to the bot that was selected
+  };
