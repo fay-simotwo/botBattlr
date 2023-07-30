@@ -38,3 +38,5 @@ const BotSpecs = ({ bot, goBackToListView, enlistBot }) => {
     </div>
   );
 };
+
+export default BotSpecs; // Export the BotSpecs component to be used in other parts of the application
