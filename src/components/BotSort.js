@@ -43,3 +43,5 @@ const BotSort = ({ filterBy, sortBy, onFilterChange, onSortChange }) => {
     </div>
   );
 };
+
+export default BotSort; // Export the BotSort component to be used in other parts of the application
