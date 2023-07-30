@@ -62,3 +62,10 @@ ul {
   border-radius: 50%; /* Round the image corners to make it circular */
   margin-bottom: 10px; /* Add margin at the bottom of bot card images */
 }
+
+/* Styling for bot card heading (h3) */
+.bot-card h3 {
+  font-size: 18px; /* Set the font size for bot card headings */
+  color: #333; /* Set the color of bot card headings */
+  margin-bottom: 5px; /* Add margin at the bottom of bot card headings */
+}
