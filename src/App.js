@@ -49,3 +49,8 @@ const App = () => {
   const handleSortChange = (value) => {
     setSortBy(value); // Set the 'sortBy' state to the selected sorting key (health, damage, armor)
   };
+
+   // Function to handle filtering by class
+   const handleFilterChange = (value) => {
+    setFilterBy(value); // Set the 'filterBy' state to the selected filter class (e.g., tank, support, etc.)
+  };
