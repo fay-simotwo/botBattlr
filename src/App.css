@@ -1,0 +1,9 @@
+/* App.css */
+
+/* Global styling for the whole body of the application */
+body {
+  font-family: 'sans'; /* Set the font-family for the entire application */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+  background-color: #f9f9f9; /* Set background color for the body */
+}
