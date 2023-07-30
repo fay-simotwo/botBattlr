@@ -39,3 +39,8 @@ const App = () => {
   const handleBotSelection = (bot) => {
     setSelectedBot(bot); // Set the 'selectedBot' state to the bot that was selected
   };
+
+    // Function to go back to the list view (BotCollection)
+    const handleGoBackToListView = () => {
+      setSelectedBot(null); // Set the 'selectedBot' state to null to return to the list view
+    };
