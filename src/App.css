@@ -169,3 +169,70 @@ ul {
   border-radius: 4px; /* Round the corners of select dropdowns */
   cursor: pointer; /* Change cursor to a pointer on hover */
 }
+
+/* BotSpecs styles */
+.bot-specs {
+  text-align: center; /* Center the text content inside BotSpecs section */
+}
+
+/* Styling for the heading "Bot Specs" in BotSpecs section */
+.bot-specs h2 {
+  color: #555; /* Set the color of the heading */
+  margin-bottom: 10px; /* Add margin at the bottom of the heading */
+}
+
+/* Styling for bot card in BotSpecs section */
+.bot-specs .bot-card {
+  background-color: #fff; /* Set the background color of the bot card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  padding: 20px; /* Add padding inside the bot card */
+  border-radius: 8px; /* Round the corners of the bot card */
+  text-align: center; /* Center the text content */
+  transition: transform 0.2s; /* Add a smooth transition effect for hover animation */
+  max-width: 400px; /* Set the maximum width for the bot card */
+  margin: 0 auto; /* Center the bot card horizontally */
+}
+
+/* Styling for bot card images in BotSpecs section */
+.bot-specs .bot-card img {
+  width: 200px; /* Set the width of the bot card image */
+  height: 200px; /* Set the height of the bot card image */
+  border-radius: 50%; /* Round the image corners to make it circular */
+  margin-bottom: 20px; /* Add margin at the bottom of the bot card image */
+}
+
+/* Styling for bot card heading (h3) in BotSpecs section */
+.bot-specs .bot-card h3 {
+  font-size: 24px; /* Set the font size for bot card headings */
+  color: #333; /* Set the color of bot card headings */
+  margin-bottom: 10px; /* Add margin at the bottom of bot card headings */
+}
+
+/* Styling for bot card paragraphs (p) in BotSpecs section */
+.bot-specs .bot-card p {
+  color: #777; /* Set the color of bot card paragraphs */
+  margin: 5px 0; /* Add margin on top and bottom of bot card paragraphs */
+}
+
+/* Styling for buttons inside the bot card in BotSpecs section */
+.bot-specs .bot-card button {
+  background-color: #28a745; /* Set the background color of buttons */
+  color: #fff; /* Set the text color of buttons */
+  border: none; /* Remove button border */
+  padding: 8px 12px; /* Add padding inside buttons */
+  border-radius: 4px; /* Round the corners of buttons */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  margin-top: 15px; /* Add margin on top of buttons */
+  margin-right: 10px; /* Add margin on the right side of buttons */
+  transition: background-color 0.2s; /* Add a smooth transition effect for background color change on hover */
+}
+
+/* Styling for the last button inside the bot card in BotSpecs section */
+.bot-specs .bot-card button:last-child {
+  background-color: #dc3545; /* Set a different background color for the last button */
+}
+
+/* Hover effect for buttons inside the bot card in BotSpecs section */
+.bot-specs .bot-card button:hover {
+  background-color: #218838; /* Change the background color on hover */
+}
