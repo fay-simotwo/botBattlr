@@ -236,3 +236,19 @@ ul {
 .bot-specs .bot-card button:hover {
   background-color: #218838; /* Change the background color on hover */
 }
+
+
+/* Media Query for responsiveness - styles for screens with max width of 768px */
+@media screen and (max-width: 768px) {
+  .bot-collection {
+    grid-template-columns: repeat(2, 1fr); /* Change the grid layout to have 2 columns on smaller screens */
+  }
+
+  .your-bot-army ul {
+    grid-template-columns: repeat(2, 1fr); /* Change the grid layout to have 2 columns on smaller screens */
+  }
+
+  .bot-specs .bot-card {
+    max-width: 300px; /* Reduce the maximum width of the bot card on smaller screens */
+  }
+}
