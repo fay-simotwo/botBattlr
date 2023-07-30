@@ -49,3 +49,16 @@ ul {
   cursor: pointer; /* Change cursor to a pointer on hover */
   transition: transform 0.2s; /* Add a smooth transition effect for hover animation */
 }
+
+/* Hover effect for bot cards */
+.bot-card:hover {
+  transform: translateY(-5px); /* Move the card up by 5 pixels on hover */
+}
+
+/* Styling for bot card images */
+.bot-card img {
+  width: 150px; /* Set the width of bot card images */
+  height: 150px; /* Set the height of bot card images */
+  border-radius: 50%; /* Round the image corners to make it circular */
+  margin-bottom: 10px; /* Add margin at the bottom of bot card images */
+}
