@@ -24,3 +24,9 @@ h2 {
   color: #555; /* Set the color of h2 elements */
   margin-bottom: 10px; /* Add margin at the bottom of h2 elements */
 }
+
+/* Styling for unordered lists (ul) */
+ul {
+  list-style: none; /* Remove default bullet points for lists */
+  padding: 0; /* Remove padding from lists */
+}
