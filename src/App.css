@@ -7,3 +7,20 @@ body {
   padding: 0; /* Remove padding */
   background-color: #f9f9f9; /* Set background color for the body */
 }
+/* Container styles, limiting the width and centering it */
+.container {
+  max-width: 1200px; /* Set the maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding around the container */
+}
+/* Styling for level 1 headings (h1) */
+h1 {
+  color: #333; /* Set the color of h1 elements */
+  margin-bottom: 20px; /* Add margin at the bottom of h1 elements */
+}
+
+/* Styling for level 2 headings (h2) */
+h2 {
+  color: #555; /* Set the color of h2 elements */
+  margin-bottom: 10px; /* Add margin at the bottom of h2 elements */
+}
