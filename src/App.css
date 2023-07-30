@@ -69,3 +69,82 @@ ul {
   color: #333; /* Set the color of bot card headings */
   margin-bottom: 5px; /* Add margin at the bottom of bot card headings */
 }
+
+
+/* Styling for bot card paragraphs (p) */
+.bot-card p {
+  color: #777; /* Set the color of bot card paragraphs */
+  margin: 5px 0; /* Add margin on top and bottom of bot card paragraphs */
+}
+
+/* YourBotArmy styles */
+.your-bot-army {
+  margin-bottom: 30px; /* Add margin at the bottom of YourBotArmy section */
+}
+
+/* Styling for the heading "Your Bot Army" in YourBotArmy section */
+.your-bot-army h2 {
+  color: #555; /* Set the color of the heading */
+  margin-bottom: 10px; /* Add margin at the bottom of the heading */
+}
+
+/* Styling for unordered lists (ul) inside YourBotArmy section */
+.your-bot-army ul {
+  display: grid; /* Display the enlisted bots in a grid layout */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Set grid columns with minimum width of 250px and maximum available width */
+  grid-gap: 20px; /* Add spacing (gap) between grid items */
+  justify-content: center; /* Center the grid items horizontally */
+}
+
+/* Styling for individual enlisted bot cards (li) inside YourBotArmy section */
+.your-bot-army li {
+  background-color: #f1f1f1; /* Set the background color of enlisted bot cards */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  padding: 15px; /* Add padding inside enlisted bot cards */
+  border-radius: 8px; /* Round the corners of enlisted bot cards */
+  text-align: center; /* Center the text content */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  transition: transform 0.2s; /* Add a smooth transition effect for hover animation */
+}
+
+/* Hover effect for enlisted bot cards */
+.your-bot-army li:hover {
+  transform: translateY(-5px); /* Move the card up by 5 pixels on hover */
+}
+
+/* Styling for enlisted bot card images */
+.your-bot-army li img {
+  width: 120px; /* Set the width of enlisted bot card images */
+  height: 120px; /* Set the height of enlisted bot card images */
+  border-radius: 50%; /* Round the image corners to make it circular */
+  margin-bottom: 10px; /* Add margin at the bottom of enlisted bot card images */
+}
+
+/* Styling for enlisted bot card heading (h3) */
+.your-bot-army li h3 {
+  font-size: 16px; /* Set the font size for enlisted bot card headings */
+  color: #333; /* Set the color of enlisted bot card headings */
+  margin-bottom: 5px; /* Add margin at the bottom of enlisted bot card headings */
+}
+
+/* Styling for enlisted bot card paragraphs (p) */
+.your-bot-army li p {
+  color: #666; /* Set the color of enlisted bot card paragraphs */
+  margin: 5px 0; /* Add margin on top and bottom of enlisted bot card paragraphs */
+}
+
+/* Styling for buttons inside enlisted bot cards */
+.your-bot-army li button {
+  background-color: #dc3545; /* Set the background color of buttons */
+  color: #fff; /* Set the text color of buttons */
+  border: none; /* Remove button border */
+  padding: 6px 10px; /* Add padding inside buttons */
+  border-radius: 4px; /* Round the corners of buttons */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  margin-top: 10px; /* Add margin on top of buttons */
+}
+
+/* Hover effect for buttons inside enlisted bot cards */
+.your-bot-army li button:hover {
+  background-color: #c82333; /* Change the background color on hover */
+}
