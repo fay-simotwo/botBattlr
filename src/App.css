@@ -38,3 +38,14 @@ ul {
   grid-gap: 20px; /* Add spacing (gap) between grid items */
   justify-content: center; /* Center the grid items horizontally */
 }
+
+/* Styling for individual bot cards */
+.bot-card {
+  background-color: #fff; /* Set the background color of bot cards */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  padding: 20px; /* Add padding inside the bot card */
+  border-radius: 8px; /* Round the corners of the bot card */
+  text-align: center; /* Center the text content */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  transition: transform 0.2s; /* Add a smooth transition effect for hover animation */
+}
