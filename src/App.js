@@ -44,3 +44,8 @@ const App = () => {
     const handleGoBackToListView = () => {
       setSelectedBot(null); // Set the 'selectedBot' state to null to return to the list view
     };
+
+    // Function to handle sorting
+  const handleSortChange = (value) => {
+    setSortBy(value); // Set the 'sortBy' state to the selected sorting key (health, damage, armor)
+  };
