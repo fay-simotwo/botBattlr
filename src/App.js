@@ -54,3 +54,30 @@ const App = () => {
    const handleFilterChange = (value) => {
     setFilterBy(value); // Set the 'filterBy' state to the selected filter class (e.g., tank, support, etc.)
   };
+
+
+  // Filter the bots based on selected classes and sort key
+  const filteredAndSortedBots = bots
+    .filter((bot) => (filterBy ? bot.bot_class === filterBy : true)) // Filter bots based on the selected class or show all if no filter is selected
+    .sort((a, b) => {
+      if (sortBy === 'health') {
+        return b.health - a.health; // Sort bots by health in descending order
+      } else if (sortBy === 'damage') {
+        return b.damage - a.damage; // Sort bots by damage in descending order
+      } else if (sortBy === 'armor') {
+        return b.armor - a.armor; // Sort bots by armor in descending order
+      }
+      return 0;
+    });
+
+  // Render the BotCollection, BotSpecs, or YourBotArmy based on selectedBot state
+  if (selectedBot) {
+    return (
+      // Render the BotSpecs component with the selected bot details
+      <BotSpecs
+        bot={selectedBot}
+        goBackToListView={handleGoBackToListView} // Pass the function to go back to the list view
+        enlistBot={enlistBot} // Pass the function to enlist a bot to your army
+      />
+    );
+  }
